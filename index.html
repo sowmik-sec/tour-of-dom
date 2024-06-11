@@ -18,6 +18,22 @@
         <li>bonobash</li>
       </ul>
     </main>
+    <section>
+      <h1 id="fruit-title">Fruits I like</h1>
+      <ul>
+        <li>Mango</li>
+        <li>Apple</li>
+        <li>Banana</li>
+      </ul>
+    </section>
+    <section>
+      <h1 class="place-title">Places I like</h1>
+      <ul>
+        <li class="place">Shohiduler ghat</li>
+        <li class="place">nodir par</li>
+        <li class="place">bashjani</li>
+      </ul>
+    </section>
     <script src="js/dom.js"></script>
     <script>
       const liCollection = document.getElementsByTagName("li");
@@ -28,6 +44,10 @@
       const allHeadings = document.getElementsByTagName("h1");
       for (const h1 of allHeadings) {
         console.log(h1.innerText);
+      }
+      const places = document.getElementsByClassName("place");
+      for (const place of places) {
+        console.log(place.innerHTML);
       }
     </script>
   </body>
