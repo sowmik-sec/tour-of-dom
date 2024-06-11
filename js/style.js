@@ -12,7 +12,7 @@ const placesContainer = document.getElementById("places");
 console.log(placesContainer);
 placesContainer.classList.add("yellow-bg");
 
-const placess = document.getElementsByClassName("place");
-for (const place of placess) {
-  place.classList.remove("place");
-}
+// const placess = document.getElementsByClassName("place");
+// for (const place of placess) {
+//   place.classList.remove("place");
+// }
